@@ -1,0 +1,372 @@
+/**********************************
+GENERAL
+***********************************/
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #716558;
+}
+
+h2 {
+	font-weight: 200;
+	font-size: 2.5em;
+	color: #D04E1C;
+}
+
+/**********************************
+HEADING
+***********************************/
+
+header.nav {
+	width: 1000px;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 20px 0 0 0;
+}
+
+.logo {
+	display: inline-block;
+}
+
+
+.myname {
+	display: inline-block;
+	font-size: 1.2em;
+}
+
+.myname p {
+	margin: 0 auto;
+	line-height: 1;
+	font-weight: 300;
+}
+
+
+.nav ul {
+	list-style: none;
+	text-align: right;
+	padding: 0;
+	margin: 0;
+}
+
+.nav li {
+	display: inline-block;
+	padding-left: 50px;
+	font-family: 'Souce Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 1.2em;
+	line-height: 40px;
+	height: 40px;
+}
+
+.nav a {
+	text-decoration: none;
+	color: #716558;
+}
+
+.nav a:hover {
+
+}
+
+.nav a.active {
+
+}
+
+/**********************************
+WELCOME
+***********************************/
+
+
+.welcome {
+	background-image: url(../img/bg1.jpg);
+	-webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+	 text-align: center;
+	 min-height: 500px;
+}
+
+.welcome h1 {
+	display: inline-block;
+	font-weight: 200;
+	font-size: 4em;
+	color: #D04E1C;
+	padding-top: 20px;
+	
+}
+
+.icon {
+	display: inline-block;
+	padding: 0 40px 0 40px;
+	text-align: center;
+}
+
+
+.welcome p {
+	font-size: 1.2em;
+	color: #D04E1C;
+}
+
+/**********************************
+ABOUT
+***********************************/
+
+
+.about {
+	width: 1000px;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: 50px;
+	min-height: 350px;
+}
+
+.about img {
+	float: left;
+	margin-right: 10px;
+	clear: both;
+}
+
+.about p {
+	margin-left: 0px;
+	overflow: auto;
+	display: block;
+	padding: 40px 20px 0 30px;
+	white-space: pre-line;
+}
+
+
+/**********************************
+MY WORK
+***********************************/
+
+.mywork {
+	width: 1000px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.flex-container {
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.flex-item {
+	width: 300px;
+	height: 200px;
+	margin-bottom: 20px;
+}
+
+
+/**********************************
+RESUME
+***********************************/
+
+.resume {
+	width: 1000px;
+	max-width: 75%;
+	margin: 0 auto;
+}
+
+.resume p em {
+	margin: 0 auto;
+}
+
+/**********************************
+STICKY FOOTER
+***********************************/
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.page-wrap:after {
+  height: 50px;
+}
+
+.site-footer {
+  background-color: #7D6F61;
+  font-size: 0.75em;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  margin-bottom: auto;
+  margin-top: 60px;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
+
+
+/**********************************
+BLOG
+***********************************/
+
+.blog {
+	width: 1000px;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+article {
+	width: 640px;
+	text-align: left;
+}
+
+
+article img {
+	position: relative;
+	padding: 10px;
+	
+}
+
+article h4 {
+	margin: 0 auto;
+	font-weight: 200;
+	font-size: 3em;
+	color: #D04E1C;
+}
+
+article em {
+	font-size: 2em;
+	color: #716558;
+	padding-bottom: 20px;
+}
+
+article hr {
+	border: 0;
+	border-bottom: 1px dashed #ccc;
+	background: #999;
+	margin: 1em 0 1em;
+}
+
+article p {
+	overflow: auto;
+	position: relative;
+}
+
+.blog-date {
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+
+
+/**********************************
+FORM
+***********************************/
+
+/* ###### White / Pink #########*/
+.form {
+	width: 1000px;
+	max-width: 75%;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: left;
+}
+
+.form p {
+	font-family:'Source Sans Pro', sans-serif;
+	font-size: 1.2em;
+	text-align: left;
+    display: block;
+    color: #969696;
+    margin: 0 auto;
+}
+
+.form label {
+    display: block;
+}
+
+.form input[type="text"], .form input[type="email"], .form textarea,.form select{
+    color: #555;
+    width: 50%;
+    padding: 3px 0px 3px 5px;
+    margin-top: 2px;
+    margin-right: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #e5e5e5;
+    background: #fbfbfb;
+    height: 25px;
+    line-height:15px;
+    outline: 0;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2);
+    box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2);
+}
+
+.form textarea{
+    height:100px;
+    padding: 5px 0px 0px 5px;
+    width: 50%;
+}
+.form .button {
+    -moz-box-shadow:inset 0px 1px 0px 0px #D04E1C;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #D04E1C;
+    box-shadow:inset 0px 1px 0px 0px #D04E1C;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #D04E1C), color-stop(1, #b9491e) );
+    background:-moz-linear-gradient( center top, #D04E1C 5%, #b9491e 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#D04E1C', endColorstr='#b9491e');
+    background-color:#D04E1C;
+    border-radius:9px;
+    -webkit-border-radius:9px;
+    -moz-border-border-radius:9px;
+    border:1px solid #b9491e;
+    display:inline-block;
+    color:#ffffff;
+    font-family:'Source Sans Pro', sans-serif;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height: 40px;
+    line-height: 30px;
+    width:100px;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #c70067;
+    margin-top: 20px;
+}
+.form .button:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b9491e), color-stop(1, #D04E1C) );
+    background:-moz-linear-gradient( center top, #b9491e 5%, #D04E1C 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b9491e', endColorstr='#D04E1C');
+    background-color:#b9491e;
+}
+.form .button:active {
+    position:relative;
+    top:1px;
+}
+.form select {
+    background: url(../img/down-arrow.png) no-repeat right, -moz-linear-gradient(top, #FBFBFB 0%, #E9E9E9 100%);
+    background: url(../img/down-arrow.png) no-repeat right, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FBFBFB), color-stop(100%,#E9E9E9));
+   appearance:none;
+    -webkit-appearance:none; 
+   -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 50%;
+    line-height: 15px;
+    height: 30px;
+}
+
+
