@@ -7,6 +7,7 @@ body {
 	padding: 0;
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #716558;
+	margin-top: 210px;
 }
 
 h2 {
@@ -18,8 +19,15 @@ h2 {
 /**********************************
 HEADING
 ***********************************/
+.header-cont {
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	background-color: rgba(255,255,255,0.9);
+	height: 210px;
+}
 
-header.nav {
+.nav {
 	width: 1000px;
 	max-width: 100%;
 	margin: 0 auto;
@@ -88,6 +96,7 @@ WELCOME
 	 text-align: center;
 	 min-height: 500px;
 }
+
 
 .welcome h1 {
 	display: inline-block;
@@ -236,7 +245,7 @@ article {
 }
 
 
-article img {
+article .img {
 	position: relative;
 	padding: 10px;
 	
