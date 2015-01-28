@@ -72,14 +72,17 @@ HEADING
 .nav a {
 	text-decoration: none;
 	color: #716558;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
-.nav a:hover {
+.nav a:hover, 
 
-}
-
-.nav a.active {
-
+.nav a.focus {
+	color: #D04E1C;
+	margin: 1em 0 1em;
 }
 
 /**********************************
